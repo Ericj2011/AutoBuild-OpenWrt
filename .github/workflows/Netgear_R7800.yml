@@ -77,7 +77,7 @@ jobs:
     #  run: |
     #    git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon-jerrykuku   
   
-    - name: Configuration Customization - Build-Netgear-R7800.config
+    - name: Configuration Customization - Build-Netgear_R7800.config
       env:
       CONFIG_TARGET_ipq806x=y
       CONFIG_TARGET_ipq806x_generic=y
